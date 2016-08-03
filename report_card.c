@@ -2,20 +2,22 @@
 
 int main()
 {
-	int kor, eng, math;
-	int sum = 0;
+    int kor, eng, math,ch;
+    int sum = 0;
 
-	math = 80;
-	eng = 100;
-	kor = 90;
-	sum = 80 + 100 + 90;
+    math = 80;
+    eng = 100;
+    kor = 90;
+    ch = 30;
+    sum = 80 + 100 + 90;
+    
+    printf("This program print report card.\n");
 
-	printf("This program print report card.\n");
-
-	printf("Korean : %d\n", kor);
-	printf("English : %d\n", eng);
-	printf("Math : %d\n", math);
-	printf("Sum : %d\n", sum);
-	printf("Average : %d\n", sum/3);
-	return 0;
+    printf("Korean : %d\n", kor);
+    printf("English : %d\n", eng);
+    printf("Math : %d\n", math);
+    printf("Sum : %d\n", sum);
+    printf("ch : %d\n",ch);
+    printf("Average : %d\n", sum/3);
+    return 0;
 }
