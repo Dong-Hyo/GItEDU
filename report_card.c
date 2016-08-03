@@ -9,7 +9,7 @@ int main()
     eng = 100;
     kor = 90;
     ch = 30;
-    sum = 80 + 100 + 90;
+    sum = 80 + 100 + 90+ch;
     
     printf("This program print report card.\n");
 
@@ -18,6 +18,6 @@ int main()
     printf("Math : %d\n", math);
     printf("Sum : %d\n", sum);
     printf("ch : %d\n",ch);
-    printf("Average : %d\n", sum/3);
+    printf("Average : %d\n", sum/4);
     return 0;
 }
