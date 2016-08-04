@@ -12,12 +12,12 @@ int main()
     sum = 80 + 100 + 90+ch;
     
     printf("This program print report card.\n");
-
+    printf("stage 3\n");
     printf("Korean : %d\n", kor);
     printf("English : %d\n", eng);
     printf("Math : %d\n", math);
     printf("Sum : %d\n", sum);
     printf("ch : %d\n",ch);
-    printf("Average : %d\n", sum/4);
+    printf("AverageT : %d\n", sum/4);
     return 0;
 }
